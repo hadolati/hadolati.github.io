@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        label {
+            width: 100px;
+            display: inline-block
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="#" method="get" >
+        <label for="">Username</label>
+        <input type="text" name='username'> <br>
+        <label for="">Password</label>
+        <input type="text" name='password'><br>
+        <input type="radio" name='food'>Strawberry
+        <input type="radio" name="food">rasberry
+        <input type="radio" name="food">blueberry
+        <input type="radio" name="food">banana
+
+        <br>
+
+        <input type="checkbox" name=" sub" value="webpage">subscrib webpage
+        <input type="checkbox" name=" sub" value="video">subscrib video
+
+        <br>
+        <textarea name="Comments" id="" cols="100" rows="10"></textarea>
+        
+        <select name="province" id="">
+            <option value="paris">paris</option>
+            <option value="Regina">Regina</option>
+            <option value="London">london</option>
+        </select><br>
+        
+        <meter min=1 max=6 value=4></meter>
+        <progress min=1 max=100 value=30></progress>
+        
+        Your age: <input type="number" name="anumber">
+        
+       Your favorit color <input type="color">
+        <input type="date">
+        <input type="range" min=2 max=10>
+        
+        <input type="submit">
+
+    </form>
+
+
+
+
+</body>
+</html>
+
+
+<!----
+
+Le code de l'instructeur 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*		inline: no width*/
+
+		label {
+			width: 100px;
+			display: inline-block;
+		}
+		
+		#num {
+			height: 50px;;
+		}
+		
+		img {
+			width: 100px;
+		}
+	</style>
+</head>
+<body>
+	<form action="#" method='get'>
+		<img src="/media/img/dog.jpg" alt="">
+		<label for="">Username</label>
+		<input type="text" name='username'> <br>
+		<label for="">Password</label>
+		<input type="password" name='password'><br>
+		<input type="radio" name='food' value='pizza'>pizza
+		<input type="radio" name='food' value='apple'>apple
+		<input type="radio" name='food' value='orange'>orange
+
+		<br>
+		<input type="checkbox" name='sub' value='email'>subscribe email
+		<input type="checkbox" name='sub' value='news'>subscribe news
+		<br>
+		
+		<textarea name="comments" id="" cols="100" rows="10"></textarea>
+		
+		<select name="province" id="">
+			<option value="toronto">Toronto</option>
+			<option value="regina">regina</option>
+			<option value="london">london</option>
+		</select>
+		
+		<br>
+		<meter min=1 max=6 value=4></meter>
+		<progress min=1 max=100 value=30></progress>
+		<br>
+		
+		<input id='num' type="number" name='anumber'>
+		<input type="search">
+		
+		<input type="color">
+		<input type="date">
+		<input type="range" min=1 max=6>
+		
+		<input type="submit">
+	</form>
+
+</body>
+</html>
+
+--/
