@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -8,12 +9,13 @@
             width: 100px;
             display: inline-block
         }
+
     </style>
 
 </head>
 
 <body>
-    <form action="#" method="get" >
+    <form action="#" method="get">
         <label for="">Username</label>
         <input type="text" name='username'> <br>
         <label for="">Password</label>
@@ -30,30 +32,47 @@
 
         <br>
         <textarea name="Comments" id="" cols="100" rows="10"></textarea>
-        
+
         <select name="province" id="">
             <option value="paris">paris</option>
             <option value="Regina">Regina</option>
             <option value="London">london</option>
         </select><br>
-        
+
         <meter min=1 max=6 value=4></meter>
-        <progress min=1 max=100 value=30></progress>
-        
-        Your age: <input type="number" name="anumber">
-        
-       Your favorit color <input type="color">
+        <progress min=1 max=100 value=30></progress> Your age: <input type="number" name="anumber"> Your favorit color <input type="color">
         <input type="date">
         <input type="range" min=2 max=10>
-        
+
         <input type="submit">
+
+
+
+        <form action="/action_page.php" method="get">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+            <input type="submit">
+        </form>
+
+
+
+
 
     </form>
 
 
 
 
+
+
 </body>
+
 </html>
 
 
