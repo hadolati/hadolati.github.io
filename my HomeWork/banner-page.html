@@ -1,24 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>teens programing</title>
+	<meta charset="UTF-8">
+	<title>teens programing</title>
 
-    <style>
-        #h {
-            border: solid 13px;
-            border-style: double;
-            width: 0px;
-            height: 740px;
-            padding-left: 870px;
-            margin: 0 auto;
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
 
-        }
-    </style>
+		#page {
+			border: double 13px;
+			text-align: center;
+			background-color: lightblue;
+		}
+
+		#container {
+			border: solid;
+			width: 100%;
+			padding: 50px;
+			background-color: lime;
+		}
+
+		h1 {
+			color: indigo;
+			font-size: 50px;
+			font-family: monospace;
+		}
+
+		hr {
+			width: 200px;
+			margin: 30px auto;
+		}
+
+		p {
+			font-family: fantasy;
+			font-size: 25px;
+			font-style: italic;
+		}
+
+		form {
+			margin-top: 50px;
+		}
+
+		input {
+			font-size: 20px;
+		}
+
+		input#email {
+			height: 40px;
+			width: 300px;
+
+			color: tomato;
+
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+			border-style: solid;
+
+			padding-left: 10px;
+
+		}
+
+		input#submit {
+			-webkit-appearance: none;
+			height: 42px;
+			width: 100px;
+
+			border-left: none;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+
+			margin-left: -4px;
+			background-color: tomato;
+			color: white;
+		}
+	</style>
 </head>
+
 <body>
 
-    <div class="center-div" id="h">
-    </div>
+	<div id="page">
+		<div id="container">
+			<h1>Teens Programming</h1>
+
+			<hr>
+			<p>Supporting a well-spent life, a bright career and entrepreneurship</p>
+			<p>Promoting STEM education Science - Tech - Engineering - Math</p>
+
+			<form action="">
+				<input id='email' type="text" placeholder="Enter your email" name='email'>
+				<input id='submit' type="submit">
+			</form>
+
+
+		</div>
+	</div>
+
 </body>
+
 </html>
+
+
+
