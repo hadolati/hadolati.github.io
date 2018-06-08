@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		#container {
+			width: 600px;
+			height: 400px;
+			border: solid blue;
+            
+            font-size: 50px;
+            color: white;
+            
+		}
+
+		#item1 {
+			width: 200px;
+			height: 200px;
+			background-color: green;
+
+			/*position: static;*/
+			/* relative, absoluate, fixed */
+			position: fixed;
+            right: 100px;
+        }
+
+		#item2 {
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+		}
+        
+        li {
+            font-family: monospace;
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 83px;
+            margin: 0px;
+            padding: 0px;
+        }
+	</style>
+</head>
+
+<body>
+    
+    <ul>
+    
+    <li>'Relative' position is relative to item's original position.</li><br>
+    <li>'Absolute' item will keep looking for its nearest container with non-satic value.</li><br>
+    <li>'Absolute' item will free its space.</li><br>
+
+    </ul>
+
+	<div id="container">
+		<div id="item1"><h1>item1</h1></div>
+		<div id="item2"><h1>item2</h1></div>
+	</div>
+
+</body>
+
+</html>
+
+
