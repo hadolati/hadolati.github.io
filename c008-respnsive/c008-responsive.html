@@ -7,14 +7,28 @@
         div {
             height: 50px;
             width: 400px;
+            
             border: solid;
+
             margin: auto;
             margin-bottom: 10px;
+            
+            background-color: white;
+            
             column-count: 2;
+            column-rule: solid red;
+            
+        }
+        @media all and (min-width: 800px) {
+            div {
+                display: inline-block;
+                width: 48%;    
+            }
         }
         body {
             background-image: url(http://www.ideaxidea.com/archives/2008/10/19/identity-theft-4.jpg);
             background-size: cover;
+            background-repeat: no-repeat;
         }
     </style>
 </head>

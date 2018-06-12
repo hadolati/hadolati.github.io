@@ -10,11 +10,16 @@
         }
 
         #H {
-            width: auto;
+            width: 14335px;
             height: 50px;
             background-color: #4d0000;
+            position: fixed;
             padding: 0px;
             border: solid #4d0000;
+            z-index: 1;
+            margin: -10px;
+            -webkit-tap-highlight-color: transparent;
+            opacity: 0.8;
         }
 
         h1 {
@@ -41,22 +46,43 @@
         }
 
         #C-I {
-            width: 1550px;
+            width: 1440px;
             height: 620px;
             border-color: transparent;
 
-            background: linear-gradient(#EB6009, #F40076);
+            background: linear-gradient( #EB6009, #F40076);
             background: linear-gradient( to top, #EB6009, #F40076);
             background: linear-gradient( to top, #EB6009, #F40076);
             background: linear-gradient( to top, #EB6009, #F40076);
             background: linear-gradient( to top, , #EB6009, #F40076);
-            background: linear-gradient(, #EB6009, #F40076);
-            background: linear-gradient(to, #EB6009, #F40076);
+            background: linear-gradient( to top, #EB6009, #F40076);
+            background: linear-gradient( to top, #EB6009, #F40076);
         }
 
-        #1 {
-            height: 100px;
-            width: 100px;
+        #Circle-1,
+        #Circle-2,
+        #Circle-3,
+        #Circle-4 {
+            background: linear-gradient( #EB6009, #F40076);
+            background: linear-gradient( to bottom, #EB6009, #F40076);
+            background: linear-gradient( to bottom, #EB6009, #F40076);
+            background: linear-gradient( to bottom, #EB6009, #F40076);
+            background: linear-gradient( to bottom, , #EB6009, #F40076);
+            background: linear-gradient( to bottom, #EB6009, #F40076);
+            background: linear-gradient( to bottom, #EB6009, #F40076);
+        }
+
+        #Circle-1 {
+            height: 970px;
+            width: 970px;
+
+            border: solid;
+            border-radius: 545px;
+            border-color: transparent;
+
+            position: relative;
+            top: 60px;
+            right: 410px;
         }
 
         #2 {}
@@ -65,6 +91,22 @@
 
         #4 {}
 
+        #B-W-S {
+            height: auto;
+            width: 570px;
+            border: solid white;
+            background-color: white;
+
+            position: relative;
+            left: 867px;
+        }
+
+        #img1 {
+            width: 570px;
+            height: 570px;
+
+            border-radius: 300px;
+        }
     </style>
 </head>
 
@@ -78,11 +120,15 @@
         <a id="2" href="">LOG IN</a>
     </div>
     <div id="C-I">
-        <div id="1"></div>
-        <div id="2"></div>
-        <div id="3"></div>
-        <div id="4"></div>
+        <div id="Circle-1"></div>
+        <div id="Circle-2"></div>
+        <div id="Circle-3"></div>
+        <div id="Circle-4"></div>
     </div>
+    <div id="B-W-S">
+        <img id="img1" src="http://deepwate.tmdhosting940.com/wptemp2/wp-content/uploads/Acoustic-Guitar-Player.jpg" alt="">
+    </div>
+    <div id="W"></div>
 </body>
 
 </html>
